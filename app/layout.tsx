@@ -27,14 +27,14 @@ export default function RootLayout({
         {children}
         <script type="application/json" id="assisthero-widget-embed-meta">
           {JSON.stringify({
-            widgetId: '6abad916372874be78f00a69',
-            name: 'monster ',
+            widgetId: '6abc15d9a5c30d9caf8993cd',
+            name: 'monster',
             type: 'bubble',
             domain: 'monster-vercel-9rjz.vercel.app',
             allowedDomain: 'monster-vercel-9rjz.vercel.app',
-            apiBaseUrl: 'https://assist-hero-app-backend.onrender.com/api',
-            loaderScriptUrl: 'https://assist-hero-app-backend.onrender.com/api/widgets/6abad916372874be78f00a69/logic?type=bubble',
-            generatedAt: '2026-09-28T21:16:14.590Z',
+            apiBaseUrl: 'http://localhost:4000/api',
+            loaderScriptUrl: 'http://localhost:4000/api/widgets/6abc15d9a5c30d9caf8993cd/logic?type=bubble',
+            generatedAt: '2026-09-29T19:49:50.292Z',
             useGraphV2: false,
             knowledgeBases: ['general-content'],
             theme: {
@@ -50,12 +50,12 @@ export default function RootLayout({
         <Script id="assisthero-widget-loader" strategy="afterInteractive">
           {`(function() {
             window.assistHeroWidgetConfig = {
-              widgetId: '6abad916372874be78f00a69',
+              widgetId: '6abc15d9a5c30d9caf8993cd',
               type: 'bubble',
-              apiUrl: 'https://assist-hero-app-backend.onrender.com/api'
+              apiUrl: 'http://localhost:4000/api'
             };
             var script = document.createElement('script');
-            script.src = 'https://assist-hero-app-backend.onrender.com/api/widgets/6abad916372874be78f00a69/logic?type=bubble';
+            script.src = 'http://localhost:4000/api/widgets/6abc15d9a5c30d9caf8993cd/logic?type=bubble';
             script.async = true;
             document.head.appendChild(script);
           })();`}
