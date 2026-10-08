@@ -32,8 +32,8 @@ export default function RootLayout({
             type: 'bubble',
             domain: 'monster-vercel-9rjz.vercel.app',
             allowedDomain: 'monster-vercel-9rjz.vercel.app',
-            apiBaseUrl: 'https://assist-hero-app-backend-staging-1.onrender.com',
-            loaderScriptUrl: 'https://assist-hero-app-backend-staging-1.onrender.com/widgets/6ac7bd78edfbd104edfc2313/logic?type=bubble',
+            apiBaseUrl: 'https://assist-hero-app-backend-staging-1.onrender.com/api',
+            loaderScriptUrl: 'https://assist-hero-app-backend-staging-1.onrender.com/api/widgets/6ac7bd78edfbd104edfc2313/logic?type=bubble',
             generatedAt: '2026-10-08T17:24:08.246Z',
             knowledgeBases: [],
             theme: {
