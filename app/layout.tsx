@@ -51,10 +51,10 @@ export default function RootLayout({
             window.assistHeroWidgetConfig = {
               widgetId: '6ac7bd78edfbd104edfc2313',
               type: 'bubble',
-              apiUrl: 'https://assist-hero-app-backend-staging-1.onrender.com'
+              apiUrl: 'https://assist-hero-app-backend-staging-1.onrender.com/api'
             };
             var script = document.createElement('script');
-            script.src = 'https://assist-hero-app-backend-staging-1.onrender.com/widgets/6ac7bd78edfbd104edfc2313/logic?type=bubble';
+            script.src = 'https://assist-hero-app-backend-staging-1.onrender.com/api/widgets/6ac7bd78edfbd104edfc2313/logic?type=bubble';
             script.async = true;
             document.head.appendChild(script);
           })();`}
