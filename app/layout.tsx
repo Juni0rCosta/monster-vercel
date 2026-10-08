@@ -27,16 +27,15 @@ export default function RootLayout({
         {children}
         <script type="application/json" id="assisthero-widget-embed-meta">
           {JSON.stringify({
-            widgetId: '6abc15d9a5c30d9caf8993cd',
-            name: 'monster',
+            widgetId: '6ac7bd78edfbd104edfc2313',
+            name: 'AH Monsters inc',
             type: 'bubble',
             domain: 'monster-vercel-9rjz.vercel.app',
             allowedDomain: 'monster-vercel-9rjz.vercel.app',
-            apiBaseUrl: 'http://localhost:4000/api',
-            loaderScriptUrl: 'http://localhost:4000/api/widgets/6abc15d9a5c30d9caf8993cd/logic?type=bubble',
-            generatedAt: '2026-09-29T19:49:50.292Z',
-            useGraphV2: false,
-            knowledgeBases: ['general-content'],
+            apiBaseUrl: 'https://assist-hero-app-backend-staging-1.onrender.com',
+            loaderScriptUrl: 'https://assist-hero-app-backend-staging-1.onrender.com/widgets/6ac7bd78edfbd104edfc2313/logic?type=bubble',
+            generatedAt: '2026-10-08T17:24:08.246Z',
+            knowledgeBases: [],
             theme: {
               mode: 'auto',
               primary: '#6366f1',
@@ -50,12 +49,12 @@ export default function RootLayout({
         <Script id="assisthero-widget-loader" strategy="afterInteractive">
           {`(function() {
             window.assistHeroWidgetConfig = {
-              widgetId: '6abc15d9a5c30d9caf8993cd',
+              widgetId: '6ac7bd78edfbd104edfc2313',
               type: 'bubble',
-              apiUrl: 'http://localhost:4000/api'
+              apiUrl: 'https://assist-hero-app-backend-staging-1.onrender.com'
             };
             var script = document.createElement('script');
-            script.src = 'http://localhost:4000/api/widgets/6abc15d9a5c30d9caf8993cd/logic?type=bubble';
+            script.src = 'https://assist-hero-app-backend-staging-1.onrender.com/widgets/6ac7bd78edfbd104edfc2313/logic?type=bubble';
             script.async = true;
             document.head.appendChild(script);
           })();`}
