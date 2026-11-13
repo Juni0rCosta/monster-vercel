@@ -27,18 +27,18 @@ export default function RootLayout({
         {children}
         <script type="application/json" id="assisthero-widget-embed-meta">
           {JSON.stringify({
-            widgetId: '6af70eb4cbd211d64b9ed2fb',
-            name: 'Junior Costa',
+            widgetId: '6af71360b824ab0ca52e3f00',
+            name: 'localhost test',
             type: 'bubble',
             domain: 'localhost:3000',
             allowedDomain: 'localhost:3000',
-            apiBaseUrl: 'https://assist-hero-app-backend-staging-1.onrender.com',
+            apiBaseUrl: 'https://assist-hero-app-backend.onrender.com/api',
             loaderScriptUrl:
-              'https://assist-hero-app-backend-staging-1.onrender.com/api/widgets/6af70eb4cbd211d64b9ed2fb/logic?type=bubble',
-            generatedAt: '2026-11-13T13:21:15.306Z',
+              'https://assist-hero-app-backend.onrender.com/api/widgets/6af71360b824ab0ca52e3f00/logic?type=bubble',
+            generatedAt: '2026-11-13T13:41:18.994Z',
             knowledgeBases: ['scare-floor-cap-uniform'],
             theme: {
-              mode: 'custom',
+              mode: 'auto',
               primary: '#6366f1',
               onPrimary: '#ffffff',
               panelBackground: '#ffffff',
@@ -50,12 +50,12 @@ export default function RootLayout({
         <Script id="assisthero-widget-loader" strategy="afterInteractive">
           {`(function() {
             window.assistHeroWidgetConfig = {
-              widgetId: '6af70eb4cbd211d64b9ed2fb',
+              widgetId: '6af71360b824ab0ca52e3f00',
               type: 'bubble',
-              apiUrl: 'https://assist-hero-app-backend-staging-1.onrender.com'
+              apiUrl: 'https://assist-hero-app-backend.onrender.com/api'
             };
             var script = document.createElement('script');
-            script.src = 'https://assist-hero-app-backend-staging-1.onrender.com/api/widgets/6af70eb4cbd211d64b9ed2fb/logic?type=bubble';
+            script.src = 'https://assist-hero-app-backend.onrender.com/api/widgets/6af71360b824ab0ca52e3f00/logic?type=bubble';
             script.async = true;
             document.head.appendChild(script);
           })();`}
